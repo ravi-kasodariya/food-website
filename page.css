@@ -1,0 +1,229 @@
+:root{
+
+    --accent-color: #eaf2f5;
+    --primary-text-color: #141414;
+    --secondary-text-color: #007676;
+    --light-text-color: #fff;
+    --primary-color: #fff;
+    --secondary-color: #007676;
+    --alpha-secondary-color:rgba(0, 118, 118, 0.2);
+    --discount-color:#E71A1C;
+    --card-hover-bg-color:#F9F9F9;
+    --border-color:#f9f9f9;
+    --box-shadow-color: var(--accent-color);
+    --shadow: rgba(0, 0, 0, 0.05);
+    --box-shadow:rgba(0,0, 0, 0.25);
+    --discount-banner-background-overlay: linear-gradient(rgba(0, 118, 118, 0.8), rgba(O, 118, 118, 0.8));
+    --phone-app-shadow: #C7E1EB;
+    --alpha-primary-color: rgba(255, 255, 255, 0.5);
+    --rating-color: #ffa800;
+
+    --transition-curve: cubic-bezier(0.36, -0.21, 0.16, 1.97);
+
+}
+
+header {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+    padding: 10px 20px;
+    background: var(--accent-color);
+}
+
+h1{
+    padding: 0rem;
+    text-align: center;
+    color: var(--secondary-text-color);
+} 
+
+#cart-list{
+    margin-top: 5rem;
+    color: var(--secondary-text-color);
+    text-transform: capitalize;
+    text-align:center;
+    padding: 2rem;
+    list-style: none;
+    line-height: 2rem;
+}
+
+#cart-list li:nth-child(odd) {
+    background-color: lightgreen; 
+    width: 100%;
+}
+
+#cart-list li:nth-child(even) {
+    background-color: white; 
+} 
+
+.bck-btn{
+    margin: 0.5rem;
+    height: 3rem;
+    width: 10rem;
+    margin-left: 0;
+    background: var(--secondary-color);
+    color: var(--light-text-color);
+    border: none;
+    padding: .2rem 0.5rem;
+    font-size: 1rem;
+    border-radius: .3rem;
+}
+
+.bck-btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.view-btn{
+    margin: 0.5rem;
+    height: 3rem;
+    width: 10rem;
+    background: var(--secondary-color);
+    color: var(--light-text-color);
+    padding: .2rem 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: .3rem;
+}
+
+.view-cart-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 30px; 
+}
+
+.view-btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: var(--primary-text-color);
+    margin-bottom: 10px;
+    justify-content: center;
+    display: grid;
+}
+
+#menu {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#menu h2 {
+    font-size: 2em;
+    color: var(--secondary-text-color);
+    margin-bottom: 20px;
+}
+
+#menu-items {
+    display: block; 
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px; 
+}
+
+.menu-item {
+    background-color: var(--accent-color);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%; 
+    text-align: center;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    
+}
+
+.menu-item button:hover {
+    transform: translateY(-2px);
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-top: 10px;
+}
+
+.menu-item p {
+    font-size: 1.2em;
+    color: var(--primary-text-color);
+    margin-bottom: 15px;
+}
+
+.menu-item button {
+    background-color: var(--secondary-text-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item button:hover {
+    background-color: #2ecc71;
+    opacity: 0.9;
+}
+
+#cart-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+#cart-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: .5rem 0; 
+    margin: .3rem 0 ;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#cart-list li:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+
+#cart-list li button {
+    background-color: #ff4444;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+#cart-list li button:hover {
+    background-color: #cc0000;
+}
+
+.clear-btn {
+    padding: 10px 20px;
+    background-color: #ff4444;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+.clear-btn:hover {
+    background-color: #cc0000;
+}
+div {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+#total{
+    color: rgb(3, 151, 3);
+}
