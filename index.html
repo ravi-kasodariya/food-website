@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Panda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <img src="img/logo.png" class="logo" alt="">
+
+            <ul class="links-container">
+                <li class="link-items"><a href="#" class="links">Order</a></li>
+                <li class="link-items"><a href="#restaurant" class="links">Restaurants</a></li>
+                <li class="link-items"><a href="#" class="links">Track Order</a></li>
+                <li class="link-items"><a href="#footer" class="links">Contact</a></li>
+            </ul>
+
+            <div class="nav-extras">
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="Search Restaurants, Cuisine....">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+                <a href="cart.html" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+            <a href="login.html" id="login-btn"><button class="login-btn">Login</button></a>
+            <a href="signup.html" id="signup-btn"><button class="signup-btn">Signup</button></a>
+            <button class="logout-btn" id="logout-btn" style="display: none;">Logout</button>
+            
+
+            
+            <div class="nav-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+       
+    </header>
+
+    <section id="restaurants-section">
+        
+        <div class="leaf-layer right">
+            <img src="img/leafs.png" alt="">
+        </div>
+
+        <div class="section" >
+            <div class="food-image-container">
+                <div class="circle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="circle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div>
+                    <img src="img/food-1.png" class="food-img" alt="">
+                    <img src="img/food-2.png" class="food-img" alt="">
+                    <img src="img/food-3.png" class="food-img" alt="">
+                    <img src="img/food-4.png" class="food-img" alt="">
+                    <img src="img/food-5.png" class="food-img" alt="">
+                    <img src="img/food-6.png" class="food-img" alt="">
+                    <img src="img/food-7.png" class="food-img" alt="">
+                </div>
+            </div>
+            <div class="section-detail" >
+                <span class="section-highlight">From Professional Chef</span>
+                <p class="section-title">1000+</p>
+                <p class="section-info">Order from our 1000+ food and beverages menu. Food for every taste and mood.</p>
+
+                <button class="btn">Order Food</button>
+            </div>
+        </div>
+
+        <div class="restaurants-container">
+            <a href="restaurant.html?id=1" class="restaurant" id="restaurant">
+                <p class="discount">50% Off</p>
+                <div class="restaurant-thumbnail">
+                    <img src="img/restaurant-1.png" class="restaurant-img" alt="">
+                </div>
+                <div class="restaurant-body">
+                    <h3 class="restaurant-name">Restaurant 01</h3>
+                    <p class="menu">Burgers, Fries, Nuggets</p>
+                    <p class="place">London</p>
+                    <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+                </div>
+            </a>
+
+            <a href="restaurant.html?id=2" class="restaurant">
+                <p class="discount">30% Off</p>
+                <div class="restaurant-thumbnail">
+                    <img src="img/restaurant-2.png" class="restaurant-img" alt="">
+                </div>
+                <div class="restaurant-body">
+                    <h3 class="restaurant-name">Restaurant 02</h3>
+                    <p class="menu">Pasta, Pizza</p>
+                    <p class="place">Eastbourne</p>
+                    <span class="rating">4.2<i class="fa-solid fa-star "></i></span>
+                </div>
+            </a>
+
+            <a href="restaurant.html?id=3" class="restaurant">
+                <p class="discount">10% Off</p>
+                <div class="restaurant-thumbnail">
+                    <img src="img/restaurant-3.png" class="restaurant-img" alt="">
+                </div>
+                <div class="restaurant-body">
+                    <h3 class="restaurant-name">Restaurant 03</h3>
+                    <p class="menu">Burgers, Fries, Nuggets</p>
+                    <p class="place">Swansea</p>
+                    <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+                </div>
+            </a>
+
+            <a href="restaurant.html?id=4" class="restaurant">
+                <div class="restaurant-thumbnail">
+                    <img src="img/restaurant-4.png" class="restaurant-img" alt="">
+                </div>
+                <div class="restaurant-body">
+                    <h3 class="restaurant-name">Restaurant 04</h3>
+                    <p class="menu">Indian Cuisine</p>
+                    <p class="place">Upper Thames</p>
+                    <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+                </div>
+            </a>
+
+            <a href="restaurant.html?id=5" class="restaurant">
+                <div class="restaurant-thumbnail">
+                    <img src="img/restaurant-5.png" class="restaurant-img" alt="">
+                </div>
+                <div class="restaurant-body">
+                    <h3 class="restaurant-name">Restaurant 05</h3>
+                    <p class="menu">Burgers, Fries, Nuggets</p>
+                    <p class="place">Camden Town</p>
+                    <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+                </div>
+            </a>
+
+            <a href="restaurant.html?id=6" class="restaurant">
+                <p class="discount">25% Off</p>
+                <div class="restaurant-thumbnail">
+                    <img src="img/restaurant-6.png" class="restaurant-img" alt="">
+                </div>
+                <div class="restaurant-body">
+                    <h3 class="restaurant-name">Restaurant 06</h3>
+                    <p class="menu">Burgers, Fries, Nuggets</p>
+                    <p class="place">Chelsea</p>
+                    <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+                </div>
+            </a>
+        </div>
+
+        <div class="leaf-layer left">
+            <img src="img/leafs-left.png" alt="">
+        </div>
+
+    </section>
+
+    <section id="about-section">
+
+        <div class="about">
+            <h2 class="about-title">Why Us?</h2>
+
+            <p class="about-info">We serve the best in taste. our customer is our number 1 priority. See what others think about us.</p>
+        
+            <div class="service-container">
+
+                <div class="service">
+                    <div class="service-title">
+                        <img src="img/fastest-delivery.png" class="service-img" alt="">
+                        <h3 class="service-name">Fastest Delivery</h3>
+                    </div>
+                    <p class="service-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="service">
+                    <div class="service-title">
+                        <img src="img/best-prices.png" class="service-img" alt="">
+                        <h3 class="service-name">Best Price</h3>
+                    </div>
+                    <p class="service-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="service">
+                    <div class="service-title">
+                        <img src="img/20+ restaurant.png" class="service-img" alt="">
+                        <h3 class="service-name">20+ Vanue</h3>
+                    </div>
+                    <p class="service-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="faq-section">
+
+        <h1 class="section-title">Frequently Ask Questions</h1>
+
+        <div class="faq">
+            <div class="question-box">
+                <h3 class="question">How can I cancel my reservation?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia nisi, totam, cum, excepturi commodi adipisci dignissimos numquam iste provident tempora aperiam! Eligendi ab, inventore eveniet quae molestiae voluptates tempora accusantium?</p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question-box">
+                <h3 class="question">How can I change delivery address after order placement?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia nisi, totam, cum, excepturi commodi adipisci dignissimos numquam iste provident tempora aperiam! Eligendi ab, inventore eveniet quae molestiae voluptates tempora accusantium?</p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question-box">
+                <h3 class="question">How can i contact my delivery person?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia nisi, totam, cum, excepturi commodi adipisci dignissimos numquam iste provident tempora aperiam! Eligendi ab, inventore eveniet quae molestiae voluptates tempora accusantium?</p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question-box">
+                <h3 class="question">My payment is declining. What should i do?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia nisi, totam, cum, excepturi commodi adipisci dignissimos numquam iste provident tempora aperiam! Eligendi ab, inventore eveniet quae molestiae voluptates tempora accusantium?</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="footer">
+
+        <div class="company-info">
+            <img src="img/footer-logo.png" class="logo" alt="">
+
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a> 
+                <a href="#"><i class="fa-brands fa-youtube"></i></a> 
+            </div>
+        </div>
+
+        <div class="useful-links footer-links-container">
+
+            <h5 class="footer-links-title">Useful Links</h5>
+            <a href="#" class="footer-links">Menu</a>
+            <a href="#" class="footer-links">Restaurants</a>
+            <a href="#" class="footer-links">Your Orders</a>
+            <a href="#" class="footer-links">Track Order</a>
+            <a href="#" class="footer-links">Support</a>
+
+        </div>
+
+        
+        <div class="information footer-links-container">
+
+            <h5 class="footer-links-title">information</h5>
+            <a href="#" class="footer-links">About Us</a>
+            <a href="#" class="footer-links">Privacy Policy</a>
+            <a href="#" class="footer-links">Terms & Conditios</a>
+            <a href="#" class="footer-links">What info we collect?</a>
+             
+        </div>
+        
+        <div class="contact footer-links-container">
+    
+            <h5 class="footer-links-title">Contact Us</h5>
+            <p class="footer-text">Our main restaurant is located on street baker street 251,London</p>
+            <p class="footer-text">Phone - +441238568374</p>
+            <p class="footer-text">Email - help@logo.com</p>
+    
+        </div>
+
+        <div class="payment-partners">
+
+            <img src="img/visa.png" alt="">
+            <img src="img/master-card.png" alt="">
+            <img src="img/paypal.png" alt="">
+            <img src="img/stripe.png" alt="">
+            <img src="img/apple-pay.png" alt="">
+            <img src="img/google-pay.png" alt="">
+        </div>
+
+        <p class="payment-partners-text">Fully secured payment gayeways by trusted companies.</p>
+
+        <p class="copyright">&copy 2025 My website | all right resereved | Designed by Ravi</p>
+
+    </section>
+    
+    <script src="index.js"></script> 
+    <script src="app.js"></script>
+
+
+</body>
+</html>
